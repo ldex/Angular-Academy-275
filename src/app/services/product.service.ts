@@ -9,8 +9,8 @@ import { catchError, delay, shareReplay, tap, map } from 'rxjs/operators';
 })
 export class ProductService {
 
-  //private baseUrl = 'https://storerestservice.azurewebsites.net/api/products/';
-  private baseUrl: string = "assets/db.json";
+  private baseUrl = 'https://storerestservice.azurewebsites.net/api/products/';
+  //private baseUrl: string = "assets/db.json";
   products$: Observable<Product[]>;
 
   constructor(private http: HttpClient) {
@@ -18,7 +18,13 @@ export class ProductService {
   }
 
   initProducts() {
-    this.products$ = this.http.get<Product[]>(this.baseUrl);
+    this.products$ = this
+                      .http
+                      .get<Product[]>(this.baseUrl)
+                      .pipe(
+                        delay(1500), // Fake delay!!
+                        tap(console.table)
+                      );
   }
 
 }
