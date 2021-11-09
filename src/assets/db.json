@@ -1,0 +1,192 @@
+[
+  {
+    "id": 1,
+    "name": "Trek SSL 2017",
+    "price": 999.9,
+    "description": "Racing bike.",
+    "discontinued": false,
+    "fixedPrice": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/angularstore-29f4b.appspot.com/o/products%2Ftrek.jpg?alt=media&token=42e1650e-7ff9-467f-bde7-0423786c94fd",
+    "modifiedDate": "2017-06-17"
+  },
+  {
+    "id": 2,
+    "name": "City XT 2015",
+    "price": 659.5,
+    "modifiedDate": "2015-03-01",
+    "description": "City bike.",
+    "fixedPrice": false,
+    "discontinued": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/angularstore-29f4b.appspot.com/o/products%2Fcity.jpg?alt=media&token=5a79c5c3-177f-44b3-b99e-fe6be97c4f7a"
+  },
+  {
+    "id": 3,
+    "name": "Cosmic Cobat 2015",
+    "price": 499.9,
+    "modifiedDate": "2015-05-17",
+    "description": "Great bike.",
+    "fixedPrice": false,
+    "discontinued": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/angularstore-29f4b.appspot.com/o/products%2Fcosmic-cobat.jpg?alt=media&token=9df1af7a-9b79-4bf6-9b98-9079581fb7d1"
+  },
+  {
+    "id": 4,
+    "name": "Hero DTB 2016",
+    "price": 759,
+    "modifiedDate": "2015-05-19",
+    "description": "Champion bike.",
+    "fixedPrice": false,
+    "discontinued": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/angularstore-29f4b.appspot.com/o/products%2Fhero-dtb.jpg?alt=media&token=8cda2f52-2b86-43eb-aa86-2537346e8736"
+  },
+  {
+    "id": 5,
+    "name": "S-WORKS 2016",
+    "price": 1299.9,
+    "modifiedDate": "2015-06-17",
+    "description": "Ultra bike.",
+    "fixedPrice": false,
+    "discontinued": false,
+    "imageUrl": "https://firebasestorage.googleapis.com/v0/b/angularstore-29f4b.appspot.com/o/products%2Fs-works.jpg?alt=media&token=5bf064a9-c8f7-4b47-a113-8825f95934f4"
+  },
+  {
+    "id": 7603,
+    "name": "Platano",
+    "price": 30.00,
+    "modifiedDate": "2019-06-04T02:10:10.397",
+    "description": "Green Banana",
+    "fixedPrice": true,
+    "discontinued": false,
+    "imageUrl": "https://ecuador.gastronomia.com/media/cache/noticia_grande/uploads/noticias/verde.T1FRaTQyZDRvRUdHbjIzei8vMTUxNzk1Mzc5Ny8.jpg"
+  },
+  {
+    "id": 7604,
+    "name": "Platano",
+    "price": 30.00,
+    "modifiedDate": "2019-06-04T02:10:14.167",
+    "description": "Green Banana",
+    "fixedPrice": true,
+    "discontinued": false,
+    "imageUrl": "https://ecuador.gastronomia.com/media/cache/noticia_grande/uploads/noticias/verde.T1FRaTQyZDRvRUdHbjIzei8vMTUxNzk1Mzc5Ny8.jpg"
+  },
+  {
+    "id": 7612,
+    "name": "A++ Super Useful Tool",
+    "price": 45.87,
+    "modifiedDate": "2019-06-13T20:06:45.58",
+    "description": "Super useful eating implement.",
+    "fixedPrice": true,
+    "discontinued": false,
+    "imageUrl": "https://i.imgur.com/h48DcS5.jpg"
+  },
+  {
+    "id": 7614,
+    "name": "John Snow",
+    "price": 42.00,
+    "modifiedDate": "2019-06-13T20:07:05.48",
+    "description": "Winter is coming!",
+    "fixedPrice": false,
+    "discontinued": false,
+    "imageUrl": ""
+  },
+  {
+    "id": 7617,
+    "name": "I am Groot!",
+    "price": 999.00,
+    "modifiedDate": "2019-06-13T20:07:36.787",
+    "description": "Lorem ipsum",
+    "fixedPrice": true,
+    "discontinued": false,
+    "imageUrl": "https://images-na.ssl-images-amazon.com/images/I/71tWRjFIuHL._SX425_.jpg"
+  },
+  {
+    "id": 7619,
+    "name": "Mr Robot Mask",
+    "price": 20.00,
+    "modifiedDate": "2019-06-13T20:08:30.283",
+    "description": "Super nice mask from the TV show!",
+    "fixedPrice": true,
+    "discontinued": false,
+    "imageUrl": "https://www.thegiftsformen.com/upload/products/mr-robot-mask.jpg"
+  },
+  {
+    "id": 7624,
+    "name": "Stef Drill",
+    "price": 1000.00,
+    "modifiedDate": "2019-06-13T20:12:58.507",
+    "description": "Super Stef Drill",
+    "fixedPrice": false,
+    "discontinued": false,
+    "imageUrl": "https://www.australianmining.com.au/wp-content/uploads/2016/09/MD6420C-Rotary-Drill-.jpeg"
+  },
+  {
+    "id": 7646,
+    "name": "Summer is Fun!",
+    "price": 99.00,
+    "modifiedDate": "2019-07-24T03:26:00.03",
+    "description": "testing",
+    "fixedPrice": false,
+    "discontinued": false,
+    "imageUrl": null
+  },
+  {
+    "id": 7647,
+    "name": "Summer is Fun 2!",
+    "price": 99.00,
+    "modifiedDate": "2019-07-24T03:36:29.87",
+    "description": "testdfgdgfdgf",
+    "fixedPrice": false,
+    "discontinued": false,
+    "imageUrl": null
+  },
+  {
+    "id": 7651,
+    "name": "George Pig's Dinosaur",
+    "price": 50.99,
+    "modifiedDate": "2019-07-24T15:30:42.353",
+    "description": "Dine-saw",
+    "fixedPrice": false,
+    "discontinued": false,
+    "imageUrl": null
+  },
+  {
+    "id": 7654,
+    "name": "hello02",
+    "price": 500.00,
+    "modifiedDate": "2019-07-24T15:34:49.9",
+    "description": "hello",
+    "fixedPrice": false,
+    "discontinued": false,
+    "imageUrl": null
+  },
+  {
+    "id": 7655,
+    "name": "why",
+    "price": 90.00,
+    "modifiedDate": "2019-07-24T15:36:25.353",
+    "description": "why",
+    "fixedPrice": false,
+    "discontinued": false,
+    "imageUrl": null
+  },
+  {
+    "id": 7662,
+    "name": "iTest",
+    "price": 17.00,
+    "modifiedDate": "2019-07-24T15:43:23.163",
+    "description": "Testkx",
+    "fixedPrice": false,
+    "discontinued": false,
+    "imageUrl": null
+  },
+  {
+    "id": 7663,
+    "name": "Haakona Matata",
+    "price": 123.12,
+    "modifiedDate": "2019-07-24T15:45:17.63",
+    "description": "Hoolalala",
+    "fixedPrice": false,
+    "discontinued": false,
+    "imageUrl": null
+  }
+]
