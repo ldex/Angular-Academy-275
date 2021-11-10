@@ -10,7 +10,10 @@ import { catchError, delay, shareReplay, tap, map } from 'rxjs/operators';
 export class ProductService {
 
   private baseUrl = 'https://storerestservice.azurewebsites.net/api/products/';
+
+  // Local Db if you can't access the above url
   //private baseUrl: string = "assets/db.json";
+
   products$: Observable<Product[]>;
 
   constructor(private http: HttpClient) {
@@ -22,8 +25,9 @@ export class ProductService {
                       .http
                       .get<Product[]>(this.baseUrl)
                       .pipe(
-                        delay(1500), // Fake delay!!
-                        tap(console.table)
+                        delay(1500), // Fake delay for the loading indicator!!
+                        tap(console.table),
+                        shareReplay()
                       );
   }
 
