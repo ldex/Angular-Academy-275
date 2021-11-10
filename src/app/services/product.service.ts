@@ -10,6 +10,7 @@ import { catchError, delay, shareReplay, tap, map } from 'rxjs/operators';
 export class ProductService {
 
   private baseUrl = 'https://storerestservice.azurewebsites.net/api/products/';
+  //private baseUrl = 'https://my-json-server.typicode.com/ldex/api/products';
 
   // Local Db if you can't access the above url
   //private baseUrl: string = "assets/db.json";
@@ -18,6 +19,10 @@ export class ProductService {
 
   constructor(private http: HttpClient) {
     this.initProducts();
+  }
+
+  insertProduct(newProduct: Product): Observable<Product> {
+    return this.http.post<Product>(this.baseUrl, newProduct);
   }
 
   getProductById(id: number): Observable<Product> {
@@ -29,9 +34,11 @@ export class ProductService {
   }
 
   initProducts() {
+    let url:string = this.baseUrl + `?$orderby=ModifiedDate%20desc`;
+
     this.products$ = this
                       .http
-                      .get<Product[]>(this.baseUrl)
+                      .get<Product[]>(url)
                       .pipe(
                         delay(1500), // Fake delay for the loading indicator!!
                         tap(console.table),
