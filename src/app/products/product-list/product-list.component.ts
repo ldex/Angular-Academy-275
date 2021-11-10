@@ -1,4 +1,5 @@
 import { Component, OnInit } from '@angular/core';
+import { Router } from '@angular/router';
 import { map, Observable, startWith } from 'rxjs';
 import { ProductService } from 'src/app/services/product.service';
 import { Product } from '../product.interface';
@@ -6,7 +7,8 @@ import { Product } from '../product.interface';
 @Component({
   selector: 'app-product-list',
   templateUrl: './product-list.component.html',
-  styleUrls: ['./product-list.component.css']
+  styleUrls: ['./product-list.component.css'],
+  providers: []
 })
 export class ProductListComponent implements OnInit {
 
@@ -36,10 +38,12 @@ export class ProductListComponent implements OnInit {
 
   onSelect(product: Product) {
     this.selectedProduct = product;
+    this.router.navigateByUrl('/products/' + product.id);
   }
 
   constructor(
-    private productService: ProductService
+    private productService: ProductService,
+    private router: Router
   ) {
 
   }
